@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Comfortaa", cursive;
+}
+
+.btn {
+  margin: 10px 10px;
+}
+
+.btn button {
+  padding: 5px 30px 5px 30px;
+  border-radius: 10px;
+  font-size: 18px;
+  border: none;
+  background: linear-gradient(
+    to right,
+    rgba(252, 93, 115, 1),
+    rgba(255, 153, 63, 1)
+  );
+  color: #fff;
+  cursor: pointer;
+}
+
+.bars {
+  width: 120px;
+  margin: 10px 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.bars span {
+  width: 50px;
+  border: 2px solid black;
+  padding: 1px;
+  border-radius: 50px;
+  margin-right: 3px;
+}
+
+.vertical {
+  margin-left: 35px;
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 50px;
+  width: 2px;
+  background: linear-gradient(
+    to right,
+    rgba(252, 93, 115, 1),
+    rgba(255, 153, 63, 1)
+  );
+}
+
+.box {
+  border: 1px solid black;
+  border-radius: 15px;
+  background: linear-gradient(
+    to right,
+    rgba(252, 93, 115, 1),
+    rgba(255, 153, 63, 1)
+  );
+  margin-left: 5px;
+  color: white;
+  width: 25%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 45px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+header img {
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+header h3 {
+  margin-left: 20px;
+}
+
+.content p {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.graph {
+  height: 70px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+}
+
+.graph span p {
+  margin-left: 10px;
+  color: black;
+  font-weight: bold;
+}
+
+footer {
+  height: 60px;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+
